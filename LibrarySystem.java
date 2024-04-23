@@ -1,10 +1,17 @@
 public class LibrarySystem {
 	// 변수 정의
-	
+	private Book[] booklist;
+	private static int bookCount = 0;
+	private static final int NUM_BOOK = 10;
 	// 생성자 정
+	public LibrarySystem() {
+	    this.booklist = new Book[NUM_BOOK]; // 생성자
+	}
 
 	public void addBook(Book book) {
 		// 책 추가
+		
+
 		// 도움을 위해 Cart.java의 insertBook(Book book)을 참조하세요
 	}
 	
